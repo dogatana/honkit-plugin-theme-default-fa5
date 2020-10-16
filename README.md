@@ -23,12 +23,12 @@ honkit-plugin-theme-default-fa5 is a fork of https://github.com/honkit/honkit.
 This plugin has following features.
 
 - Enable FontAwesome 5
-- Change "burger menu" icon
-- Add configuration for "burger menu" icon
+- Change "burger menu" icon to "fas fa-bars".
+- Add configuration to change "burger menu" icon.
 
 ## Setup
 
-Before building book, add following setting in `book.json`
+Before building book, add following settings in `book.json`
 ```js
 {
 	"plugins": [
@@ -41,8 +41,8 @@ Before building book, add following setting in `book.json`
 
 ## Costomize Icon
 
-Specify icon classname like following.
-You can use FontAwesome 5.
+Specify a name of class in `book.json` like following.<br>
+You can use any icon of FontAwesome 5.
 
 ```js
 {
