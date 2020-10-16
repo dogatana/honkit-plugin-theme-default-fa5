@@ -1,8 +1,14 @@
 module.exports = {
     hooks: {
         config: function (config) {
-            config.styles = config.styles || config.pluginsConfig["theme-default-fa5"].styles;
+            if (config.styles) {
+                return config;
+            }
 
+            const name = "theme-default-fa5";
+            if (config.pluginsConfig && config.pluginsConfig[name] && config.pluginsConfig[name].styles) {
+                config.style = config.pluginsConfig[name].styles;
+            }
             return config;
         },
     },
