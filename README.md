@@ -1,4 +1,4 @@
-# HonKit Default Theme with FontAwesome 5 [![npm version](https://badge.fury.io/js/honkit-plugin-theme-default-fa5.svg)](https://badge.fury.io/js/honkit-plugin-theme-default-fa5)
+# HonKit Default Theme with FontAwesome 5 [![npm version](https://badge.fury.io/js/%40dogatana%2Fhonkit-plugin-theme-default-fa5.svg)](https://badge.fury.io/js/%40dogatana%2Fhonkit-plugin-theme-default-fa5)
 
 This is the default theme for HonKit.
 
