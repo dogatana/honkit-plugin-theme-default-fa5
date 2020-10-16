@@ -22,7 +22,7 @@ lessc -clean-css src/less/epub.less _assets/ebook/epub.css
 
 # Copy fonts
 mkdir -p _assets/website/fonts
-cp -R node_modules/font-awesome/fonts/ _assets/website/fonts/fontawesome/
+cp -R node_modules/@fortawesome/fontawesome-free/webfonts/ _assets/website/fonts/fontawesome/
 
 # Copy icons
 mkdir -p _assets/website/images

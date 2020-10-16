@@ -1,5 +1,8 @@
 @import "base/all.less";
-@import "../../font-awesome/less/font-awesome.less";
+@import "../../node_modules/@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "../../node_modules/@fortawesome/fontawesome-free/less/brands.less";
+@import "../../node_modules/@fortawesome/fontawesome-free/less/regular.less";
+@import "../../node_modules/@fortawesome/fontawesome-free/less/solid.less";
 @import "preboot.less";
 
 @import "website/variables.less";
@@ -43,3 +46,12 @@ body {
     letter-spacing: .2px;
     .text-adjust(100%);
 }
+
+/* Deprecated as of 4.4.0 */
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+

@@ -465,7 +465,7 @@ function init() {
     $(window).resize(updateNavigationPosition);
 
     // Prepare current page
-    preparePage(false);
+    preparePage(true);
 }
 
 module.exports = {
