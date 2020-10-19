@@ -1,6 +1,6 @@
 {
   "name": "@dogatana/honkit-plugin-theme-default-fa5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Default theme for HonKit with FontAwesome 5",
   "bugs": {
     "url": "https://github.com/dogatana/honkit-plugin-theme-default-fa5/issues"
