@@ -26,6 +26,12 @@ This plugin has following features.
 - Change "burger menu" icon to "fas fa-bars".
 - Add configuration to change "burger menu" icon.
 
+## Install
+
+```
+npm i @dogatana/honkit-plugin-theme-default-fa5
+```
+
 ## Setup
 
 Before building book, add following settings in `book.json`
@@ -33,7 +39,7 @@ Before building book, add following settings in `book.json`
 {
 	"plugins": [
 		"-theme-default",
-		"theme-default-fa5"
+		"@dogatana/theme-default-fa5"
 	]
 }
 
@@ -46,10 +52,10 @@ You can use any icon of FontAwesome 5.
 
 ```js
 {
-	"pluginsConfig": {
-		"theme-default-fa5": {
-			"iconClass": "fas fa-home"
-		}
-	}
+    "pluginsConfig": {
+        "theme-default-fa5": {
+            "iconClass": "fas fa-home"
+        }
+    }
 }
 ```
