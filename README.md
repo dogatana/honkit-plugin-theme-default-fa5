@@ -59,3 +59,10 @@ You can use any icon of FontAwesome 5.
     }
 }
 ```
+
+## Relases
+
+- 1.0.3 - remove a unnecessary meta tag to avoid warning of tidy
+- 1.0.2 - remove npm badge
+- 1.0.1 - add @dogatana scope name
+- 1.0.0 - initial release
