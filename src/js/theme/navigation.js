@@ -367,7 +367,7 @@ function preparePage(resetScroll) {
     updateNavigationPosition();
 
     // Focus on content
-    $pageWrapper.focus({ preventScroll: true });
+    $pageWrapper.focus(false);
 
     // Get scroller
     var $scroller = getScroller();
