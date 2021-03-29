@@ -62,6 +62,7 @@ You can use any icon of FontAwesome 5.
 
 ## Relases
 
+- 1.0.6 - suppress unnecessary message when changing page and apply https://github.com/honkit/honkit/pull/196
 - 1.0.5 - fix Uncaught TypeError https://github.com/honkit/honkit/issues/191
 - 1.0.4 - apply resolution for honkit issue #135
 - 1.0.3 - remove a unnecessary meta tag to avoid warning of tidy
